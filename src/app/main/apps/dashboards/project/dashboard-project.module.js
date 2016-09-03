@@ -6,6 +6,8 @@
         .module('app.dashboards.project', [])
         .config(config);
 
+    
+
     /** @ngInject */
     function config($stateProvider, msApiProvider)
     {
